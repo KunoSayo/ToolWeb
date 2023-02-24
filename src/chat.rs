@@ -111,5 +111,5 @@ fn check_username(state: &AppState, string: &mut String, name: &str) {
 pub async fn chat() -> Html<&'static str> {
     tracing::trace!("get chat");
 
-    Html(include_str!("../chat.html"))
+    Html(include_str!("chat.html"))
 }
